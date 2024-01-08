@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-gradient {
+    background: linear-gradient(
+      45deg,
+      rgb(94, 255, 91) 58%,
+      rgb(169, 255, 104) 87%
+    );
+  }
+}
+
+body {
+  @apply 3xl:w-1/2 3xl:mx-auto;
+}
